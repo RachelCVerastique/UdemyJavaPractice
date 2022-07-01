@@ -37,6 +37,13 @@ public class Main {
 
         short bigShortLiteralValue = 32767;
 
+        int myTotal = (myMinIntValue / 2);
+
+        //casting convert one type to another by adding (byte)
+        //defaulted as int when casting not done which results in an error
+        byte myNewByteValue = (byte) (myMinByteValue /2);
+        // casting using (short) instead
+        short myNewShortValue = (short) (myMinShortValue / 2);
 
 
     }
