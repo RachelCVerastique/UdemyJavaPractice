@@ -46,5 +46,13 @@ public class Main {
         short myNewShortValue = (short) (myMinShortValue / 2);
 
 
+        byte myByte = 98;
+        short myShort = 586;
+        int myInt = 56548;
+        long myLongNum = 50000 + 10L * (myInt + myByte + myShort);
+        System.out.println(myLongNum);
+        // if we wanted to do this with a short instead we would need to cast
+        short shortTotal = (short) (1000 + 10 * (myInt + myByte + myShort));
+
     }
 }
